@@ -42,7 +42,7 @@ public class Exercise1 {
 
         while (again.equals("y")) {
 
-            if (operator == '+') {
+            if(operator == '+') {
                 System.out.println("Result: " + (num1 + num2));
             } else if (operator == '-') {
                 System.out.println("Result: " + (num1 - num2));
