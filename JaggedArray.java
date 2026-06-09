@@ -5,9 +5,9 @@ public class JaggedArray {
         nums[1] = new int[3];
         nums[2] = new int[4];
 
-         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums[i].length; j++) {
-                nums[i][j] = (int)(Math.random() * 100);
+        for (int[] num : nums) {
+            for (int j = 0; j < num.length; j++) {
+                num[j] = (int)(Math.random() * 100);
             }
         }
         for(int n[]: nums){
