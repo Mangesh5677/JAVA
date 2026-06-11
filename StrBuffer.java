@@ -5,5 +5,6 @@ public class StrBuffer {
         sb.append("Shinde");
         sb.insert(0,"Java Developer ");
         System.out.println(sb);
+        //sb.setLength(5);
     }
 }
