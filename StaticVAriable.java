@@ -21,6 +21,6 @@ public class StaticVAriable {
 
         Mobile.name="Phone";
         obj1.show();
-        obj2.show();
+        obj2.show();//
     }
 }
