@@ -8,7 +8,7 @@ class B extends A {
     int sub(int n1, int n2) {
         return n1 - n2;
     }
-}   // <-- Close class B here
+}  
 
 public class Inheritance2Demo {
     public static void main(String[] args) {
