@@ -1,5 +1,9 @@
+
+import java.util.Scanner;
+
 public class QuestionService{
     Question[] questions = new Question[5];
+    String[] selection = new String[5];
     public QuestionService(){
     questions[0] = new Question(
     1,
@@ -53,10 +57,22 @@ questions[4] = new Question(
     }
 
     public void playQuiz(){
+        int i=0;
         for(Question q :questions){
         System.out.println("QuestionNo. :"+q.getId());
-        System.out.println(q.getQuestion());
-        System.out.println(q.getOpt());
+        System.out.println("Question:"+q.getQuestion());
+        System.out.println("Option 1:"+q.getOpt1());
+        System.out.println("Option 2:"+q.getOpt2());
+        System.out.println("Option 3:"+q.getOpt3());
+        System.out.println("Option 4:"+q.getOpt4());
+        Scanner sc = new Scanner(System.in);
+       
+        selection[i]= sc.nextLine();
+        i++;
+    }
+
+    for(String s : selection){
+        System.out.println(s);
     }
 }
 }
