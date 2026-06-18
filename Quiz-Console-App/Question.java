@@ -5,4 +5,5 @@ public class Question {
     String opt2;
     String opt3;
     String opt4;
+    String answer;
 }
